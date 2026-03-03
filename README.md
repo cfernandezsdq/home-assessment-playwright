@@ -23,8 +23,8 @@ concerns.
 Clone the repository:
 
 ``` bash
-git clone <repository-url>
-cd origami-sdet-playwright
+git clone https://github.com/cfernandezsdq/home-assessment-playwright.git
+cd home-assessment-playwright
 ```
 
 Install dependencies:
