@@ -1,0 +1,25 @@
+{
+  "name": "home-assessment-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:ui:g": "playwright test --project=ui -g",
+    "test:api": "playwright test --project=api",
+    "test:api:g": "playwright test --project=api -g",
+    "test:ui:headed": "playwright test --project=ui --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
